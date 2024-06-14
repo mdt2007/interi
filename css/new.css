@@ -1,0 +1,57 @@
+.product-list{
+    display: flex;
+    justify-content: space-between;
+}
+#scrolltop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #scrolltop:hover {
+    background-color: #0056b3;
+  }
+
+  .post{
+    width: 186px;
+    height: 135px;
+  }
+
+  .delete_btn:hover{
+    background-color: #f6f7a9;
+  }
+
+  .delete_btn{
+    border: none;
+    color: #525151;
+    background-color: white;
+    width: 185px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+  }
+  .btn_add{
+   color: white;
+  }
+
+  .btn_add:hover{
+    color: #111;
+  }
+
+
+      
