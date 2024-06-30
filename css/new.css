@@ -1,57 +1,105 @@
-.product-list{
-    display: flex;
-    justify-content: space-between;
+.product-list {
+  display: flex;
+  justify-content: space-between;
 }
+
 #scrolltop {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  #scrolltop:hover {
-    background-color: #0056b3;
-  }
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
-  .post{
-    width: 186px;
-    height: 135px;
-  }
+#scrolltop:hover {
+  background-color: #0056b3;
+}
 
-  .delete_btn:hover{
-    background-color: #f6f7a9;
-  }
+.post {
+  width: 186px;
+  height: 135px;
+}
 
-  .delete_btn{
-    border: none;
-    color: #525151;
-    background-color: white;
-    width: 185px;
-    height: 55px;
-    line-height: 55px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin: 20px auto 0;
-    display: flex;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-  }
-  .btn_add{
-   color: white;
-  }
+.delete_btn:hover {
+  background-color: #f6f7a9;
+}
 
-  .btn_add:hover{
-    color: #111;
-  }
+.delete_btn {
+  border: none;
+  color: #525151;
+  background-color: white;
+  width: 100px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
 
+.btn_add {
+  color: white;
+}
 
-      
+.btn_add:hover {
+  color: #111;
+}
+
+.cmt-full {
+  display: flex;
+  margin: auto;
+}
+
+.cmt-btn {
+  width: 800px;
+  height: 100px;
+  margin: auto;
+}
+
+.cmt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: none;
+}
+
+.post-btn {
+  font-size: 15px;
+  min-width: 100px !important;
+  height: 50px;
+  padding: 0;
+}
+
+.text-btn {
+  width: 500px;
+}
+
+.post-img {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.cmt-model {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 45px;
+}
+
+.text-cmt {
+  width: 200px;
+  border: #111 solid 1px;
+  padding: 10px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}

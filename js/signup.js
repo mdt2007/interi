@@ -19,6 +19,7 @@ button.addEventListener('click',
     console.log(userJson);
     localStorage.setItem("user", userJson);
     alert("Success");
-}
-)
+    // window.location.href = "./index.html"
+})
+    
 

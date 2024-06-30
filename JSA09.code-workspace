@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../jsi07"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JSA09"
+	}
+}
